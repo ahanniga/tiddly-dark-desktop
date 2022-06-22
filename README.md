@@ -1,6 +1,8 @@
 # Tiddly-dark-desktop
 An Electron wrapper around [tiddly-dark](https://github.com/ahanniga/tiddly-dark)
 
+![Screenshot](https://github.com/ahanniga/tiddly-dark-desktop/blob/main/resources/tiddly-dark-desktop-sshot.png?raw=true)
+
 ## What it Provides
 
 An all-in-one application that runs [Tiddlywiki Server Edition](https://tiddlywiki.com/#Installing%20TiddlyWiki%20on%20Node.js) with some pre-installed plugins focussed on programmers notes.
