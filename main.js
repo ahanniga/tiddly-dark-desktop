@@ -31,13 +31,13 @@
  
      switch (platform) {
          case "win32":
-             icon = "tiddly-dark.ico";
+             icon = "resources/tiddly-dark.ico";
              break;
          case "darwin":
-             icon = "tiddly-dark.icns";
+             icon = "resources/tiddly-dark.icns";
              break;
          default:
-             icon = "tiddly-dark.png";
+             icon = "resources/tiddly-dark.png";
              break;
      }
  

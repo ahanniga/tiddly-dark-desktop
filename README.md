@@ -10,8 +10,8 @@ Binaries available for Windows, Mac and Linux.
 
 ## Installation
 
-1. Download a binary suitable for your OS from the releases page.
-2. Unzip the file into a directory (Windows)
+1. Download a binary suitable for your OS from the [releases](https://github.com/ahanniga/tiddly-dark-desktop/releases/) page.
+2. Unzip the file into a directory
 3. Run the executable
 4. On first run, default Tiddlers are copied to the user home directory under `~/.tiddly-dark`
 
