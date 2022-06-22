@@ -1,0 +1,426 @@
+@font-face {
+  font-family: 'Hack';
+  src: url('/files/hack-regular.woff2') format('woff2'), url('/files/hack-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/files/OpenSans-Regular.woff2') format('woff2'), url('/files/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: regular;
+}
+
+:root {
+    --color-background: #22272e;
+    --color-grey-border: #444c56;
+   --color-med-blue: #316dca;
+}
+
+p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+li p {
+    margin: 1px;
+}
+
+/* Heading font bold */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+/* Shape tag pills */
+button.tc-tag-label, span.tc-tag-label {
+    padding: 0px 8px;
+    color: #c8e1ff !important;
+    line-height: inherit;
+}
+.tc-remove-tag-button {
+    padding-left: 9px;
+}
+
+/* For title border we need to switch padding/margins */
+.tc-titlebar {
+    margin: 0;
+    line-height: normal;
+    font-size: 20pt;
+    padding: 10px 10px 13px 15px;
+}
+input.tc-titlebar.tc-edit-texteditor {
+    padding-left: 7px;
+}
+.tc-tiddler-title {
+    background-color: transparent;
+}
+.tc-subtitle {
+    padding: 0px 15px 10px 15px;
+    border-bottom: 1px solid var(--color-grey-border);
+    margin-top: -5px;
+}
+
+.tc-tiddler-body {
+    padding: 10px 15px;
+}
+
+/* Edit tiddler */
+span.tc-tiddler-controls.tc-titlebar {
+    margin: 0;
+    padding: 5px 0px 10px 0px;
+}
+.tc-tiddler-frame.tc-tiddler-edit-frame.tc-tiddler-exists {
+    padding: 10px 15px 10px 15px !important;
+}
+.tc-tiddler-controls button svg, .tc-tiddler-controls button img {
+    height: 21px;
+}
+
+/* Username not required */
+.tc-subtitle .tc-tiddlylink {
+    display: none;
+}
+
+/* Style subtitle */
+.tc-site-subtitle {
+    color: var(--color-med-blue);
+}
+
+.tc-tags-wrapper {
+    margin: 0 0 0px 0;
+    padding: 0px 0px 0px 15px;
+    border-bottom: 1px solid #444c56;
+}
+
+/* Add margin to pills */
+.tc-tags-wrapper .tc-tag-list-item {
+    margin: 10px 5px 10px 2px;
+}
+
+/* Force anchors blue */
+a {
+    color: #539bf5 !important;
+    text-decoration: none !important;
+    margin-right: 3px;
+}
+
+/* Force bg for all hljs classes */
+.hljs {
+    background: #2d333b;
+    line-height: 1.4;
+}
+
+/* Make lables inline */
+label {
+    display: inline-block;
+}
+.tc-sidebar-lists button {
+    color: #768290;
+    fill: #768290;
+}
+.tc-sidebar-lists label {
+    margin-right: 3px;
+}
+
+/* Thin and round tiddler borders */
+.tc-tiddler-frame {
+    border: 1px solid var(--color-grey-border);
+    border-radius: 9px;
+    padding: 0;
+    margin-bottom: 23px;
+}
+
+.tc-tiddler-tite {
+    background-color: transparent;
+}
+
+/* Reduce unfold button spacing */
+button.tc-unfold-banner {
+    margin-top: 1px;
+}
+
+/* Center and resize any image in title */
+div.kbtitle {
+    display: flex; 
+    align-items: center;
+    font-size: 22pt;
+    margin-bottom: 5px;
+}
+img.kbtitle {
+    margin-right:10px; 
+    width: 40px;
+    border-radius: 3px;
+}
+
+/* Style search input */
+textarea, input[type=text], input[type=search], input[type=""], input:not([type]) {
+    border: 1px solid var(--color-grey-border);
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+    margin-right: 5px;
+    font-family: Hack;
+}
+
+/* Add some space under controls */
+.tc-page-controls {
+    margin-bottom: 12px;
+}
+
+/* Tweak pre-blocks */
+pre {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/* And code blocks */
+code {
+    border: none;
+    font-size: 10pt;
+    margin: 3px;
+    font-family: hack, monaco, monospace;
+}
+
+/* Move the right panel up a bit */
+body.tc-body .tc-sidebar-scrollable {
+    padding-top: 41px;
+    padding-left: 35px;
+}
+
+/* Darken the edit-tags panel */
+.tc-edit-tags {
+    background: var(--color-background);
+    border: none;
+    padding: 5px 0 0 0;
+}
+
+/* Placeholder */
+::placeholder {
+  color: #636e7b;
+  opacity: 1; /* Firefox */
+}
+
+/* Prettify html buttons */
+html button {
+    line-height: 1.2;
+    color: #758390;
+    fill: #2e3440;
+    background-color: var(--color-background);
+    border: 1px solid var(--color-grey-border);
+    padding: 4px 13px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* Remove border in CP */
+.tc-control-panel div {
+    border:none;
+}
+.tc-chooser-item {
+    background: #343b44;
+}
+
+/* Editor toolbar - ease left */
+
+.tc-editor-toolbar {
+    margin-left: -4px;
+    margin-bottom: 3px;
+}
+
+/* Editor, remove top/bottom field margin */
+table.tc-edit-fields {
+    margin: 0;
+}
+
+/* Tiddler editor control button bg */
+.tc-editor-toolbar button {
+    background-color: var(--color-background);
+    color: #768290;
+    fill: #768290;
+    border: 1px solid var(--color-grey-border);
+}
+
+/* Drop-down border */
+.tc-drop-down {
+    border: 1px solid var(--color-grey-border);
+}
+.tc-block-dropdown {
+    border: 1px solid var(--color-grey-border);
+}
+
+/* FIXME: tabs so far */
+.tc-tab-set  button:hover {
+    background: #316eca;
+    color: #d3e9ff;
+}
+.tc-tab-buttons button.tc-tab-selected {
+    color: #cddaea;
+    background-color: #425062;
+}
+
+.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
+    background-color: #425062;
+}
+.tc-sidebar-lists a.tc-tiddlylink:hover {
+    color: #c8e1ff !important;
+}
+
+/* Dropdown foreground */
+.tc-block-dropdown a.tc-tiddlylink:hover {
+    color: #c8e1ff !important;
+}
+
+/* Style HR */
+hr {
+    height: 0;
+    border: 0;
+    border-top: 1px solid var(--color-grey-border);
+}
+
+/* CodeMirror */
+.cm-s-tiddlywiki.CodeMirror, .cm-s-tiddlywiki .CodeMirror-gutters {
+    font-size: 10pt;
+}
+
+.cm-s-tiddlywiki .CodeMirror-activeline-background, .cm-s-tiddlywiki .CodeMirror-activeline-gutter .CodeMirror-linenumber {
+    background: rgb(30 34 41);
+}
+.cm-s-tiddlywiki .CodeMirror-linenumber {
+    color: #636e7b;
+}
+.cm-s-tiddlywiki .CodeMirror-dialog {
+    background: #2d333b;
+}
+span.CodeMirror-search-hint {
+    color: #99a2b2 !important;
+}
+.CodeMirror-dialog-top {
+    border-bottom: 1px solid #4c5769;
+    top: 0;
+}
+
+/*
+TEST
+.cm-s-tiddlywiki.CodeMirror, .cm-s-tiddlywiki .CodeMirror-gutters {
+    min-height: 79px;
+}
+*/
+.CodeMirror-scroll {
+	min-height: 100px;
+}
+
+.tc-import {
+    padding: 15px;
+}
+
+/* Style tables (TW5/MD content-types) */
+table {
+  border-collapse: separate;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #454c56;
+  border-spacing: 0;
+}
+table th, table td {
+    border-top: none;
+    border-left: none;
+}
+table th {
+    background-color: var(--color-background);
+    padding: 6px 15px 6px 15px;
+}
+table td, .tc-control-panel td {
+    padding: 4px 15px 4px 15px;
+}
+tr:not(:first-child) td {
+  border-top: 1px solid #454c56; 
+}
+td:not(:last-child), th:not(:last-child) {
+ /* Vertical column dividers */
+ /* border-right: 1px solid #454c56; */
+}
+table>thead :first-child th {
+  border-bottom: 1px solid #454c56; 
+}
+
+/* Tiddler info popup */
+.tc-tiddler-info {
+    margin: 0px;
+}
+
+/* Drafts List */
+.tc-drafts-list a {
+    background: var(--color-med-blue);
+    color: #eee !important;
+}
+
+
+/* Hopefully this fixes the ugly scrollbars on Linux and issue #2 
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    background-color: var(--color-background);
+}
+
+::-webkit-scrollbar
+{
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-background);
+}
+
+.tc-sidebar-scrollable::-webkit-scrollbar
+{
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: var(--color-grey-border);
+}
+
+::-webkit-scrollbar-corner {
+    background-color: var(--color-background);
+} {
+   width: 200px;
+   height: 400px;
+   overflow: scroll;
+   white-space: nowrap;
+}
+*/
+::-webkit-scrollbar
+{
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 8px;
+    background-color: var(--color-grey-border);
+}
+
+/* Electron: make titlebar area draggable */
+.tc-topbar-left {
+    left: 40px;
+    top: 0px;
+    width: 100%;
+    height: 20px;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    /*background-color: var(--color-background);*/
+    z-index: 200;
+}
+
+/* Remove the border around presentation */
+.tamasha-presentation-frame {
+    border: none;
+}

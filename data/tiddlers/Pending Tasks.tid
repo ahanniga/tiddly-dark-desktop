@@ -1,0 +1,18 @@
+created: 20210806193712209
+creator: User
+modified: 20210830203401785
+modifier: User
+tags: Contents
+title: Pending Tasks
+type: text/vnd.tiddlywiki
+
+<$list filter="[!has[draft.of]tag[task]!tag[done]sort[created]]">
+  <$checkbox tag="done">
+    <$link to={{!!title}}>
+      &nbsp;&nbsp;<$view field="title"/><br>
+    </$link>
+  </$checkbox>
+</$list>
+
+<br>
+See also [[Completed Tasks]]

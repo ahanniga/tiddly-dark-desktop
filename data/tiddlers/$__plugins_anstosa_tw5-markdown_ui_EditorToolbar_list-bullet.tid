@@ -1,0 +1,17 @@
+caption: {{$:/language/Buttons/ListBullet/Caption}}
+condition: [<targetTiddler>type[text/x-markdown]]
+created: 20210809231822433
+description: {{$:/language/Buttons/ListBullet/Hint}} (Markdown)
+icon: $:/core/images/list-bullet
+modified: 20210809231822589
+shortcuts: ((list-bullet))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/anstosa/tw5-markdown/ui/EditorToolbar/list-bullet
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="prefix-lines"
+	character="*"
+	count="1"
+/>

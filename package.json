@@ -1,0 +1,25 @@
+{
+  "name": "tiddly-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "productName": "Tiddly Dark",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.4",
+    "electron-packager": "^15.5.1",
+    "fs-extra": "^10.1.0",
+    "upath": "^2.0.1"
+  },
+  "dependencies": {
+    "tiddlywiki": "^5.2.2",
+    "upath": "^2.0.1",
+    "fs-extra": "^10.1.0"
+  }
+}

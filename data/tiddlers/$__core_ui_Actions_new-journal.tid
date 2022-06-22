@@ -1,0 +1,19 @@
+created: 20210527185004840
+creator: Aidan
+description: create a new journal tiddler
+modified: 20210527185511100
+modifier: Aidan
+tags: $:/tags/Actions
+title: $:/core/ui/Actions/new-journal
+type: text/vnd.tiddlywiki
+
+<$vars journalTitleTemplate={{$:/config/NewJournal/Title}} journalTags={{$:/config/NewJournal/Tags}} journalText={{$:/config/NewJournal/Text}}>
+<$wikify name="journalTitle" text="""<$macrocall $name="now" format=<<journalTitleTemplate>>/>""">
+<$reveal type="nomatch" state=<<journalTitle>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> type="text/x-markdown" tags=<<journalTags>> text={{{ [<journalTitle>get[]] }}}/>
+</$reveal>
+<$reveal type="match" state=<<journalTitle>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> type="text/x-markdown" tags=<<journalTags>> text=<<journalText>>/>
+</$reveal>
+</$wikify>
+</$vars>

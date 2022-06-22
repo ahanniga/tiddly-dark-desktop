@@ -1,0 +1,10 @@
+author: Jed Carty
+core-version: >=5.1.9
+created: 20210528204530232
+dependents: 
+description: Advanced Tiddler Manipulation Tools
+modified: 20210528204530232
+plugin-type: plugin
+title: $:/plugins/inmysocks/TiddlerTool
+type: application/json
+version: 5.1.10-prerelease
