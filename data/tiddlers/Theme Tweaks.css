@@ -359,43 +359,7 @@ table>thead :first-child th {
 }
 
 
-/* Hopefully this fixes the ugly scrollbars on Linux and issue #2 
-::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    border-radius: 8px;
-    background-color: var(--color-background);
-}
-
-::-webkit-scrollbar
-{
-    width: 8px;
-    height: 8px;
-    background-color: var(--color-background);
-}
-
-.tc-sidebar-scrollable::-webkit-scrollbar
-{
-    width: 0px;
-    height: 0px;
-}
-
-::-webkit-scrollbar-thumb
-{
-    border-radius: 8px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: var(--color-grey-border);
-}
-
-::-webkit-scrollbar-corner {
-    background-color: var(--color-background);
-} {
-   width: 200px;
-   height: 400px;
-   overflow: scroll;
-   white-space: nowrap;
-}
-*/
+/* Fixes the ugly scrollbars on Linux and issue #2 */
 ::-webkit-scrollbar
 {
     width: 8px;
@@ -410,7 +374,7 @@ table>thead :first-child th {
 
 /* Electron: make titlebar area draggable */
 .tc-topbar-left {
-    left: 40px;
+    left: 70px;
     top: 0px;
     width: 100%;
     height: 20px;
@@ -420,7 +384,30 @@ table>thead :first-child th {
     z-index: 200;
 }
 
+/* Correct menu offset */
+.tc-topbar-right {
+    top: 5px;
+    right: 8px;
+}
+
 /* Remove the border around presentation */
 .tamasha-presentation-frame {
     border: none;
+}
+
+/* Streams Plugin */
+.stream-root {
+    margin-left: -9px !important;
+    margin-bottom: 6px;
+}
+
+span.sq-breadcrumbs-fragment {
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.sq-contextmenu .tc-menu-list-item {
+    color: inherit;
+}
+.sq-contextmenu-divider {
+    border-top-color: inherit;
 }

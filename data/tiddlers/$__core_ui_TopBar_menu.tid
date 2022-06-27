@@ -1,0 +1,12 @@
+created: 20220627093029728
+modified: 20220627093031947
+tags: $:/tags/TopRightBar
+title: $:/core/ui/TopBar/menu
+type: text/vnd.tiddlywiki
+
+<$list filter="[[$:/state/sidebar]get[text]] +[else[yes]!match[no]]" variable="ignore">
+<$button set="$:/state/sidebar" setTo="no" tooltip={{$:/language/Buttons/HideSideBar/Hint}} aria-label={{$:/language/Buttons/HideSideBar/Caption}} class="tc-btn-invisible tc-hide-sidebar-btn">{{$:/core/images/menu-button}}</$button>
+</$list>
+<$list filter="[[$:/state/sidebar]get[text]] +[else[yes]match[no]]" variable="ignore">
+<$button set="$:/state/sidebar" setTo="yes" tooltip={{$:/language/Buttons/ShowSideBar/Hint}} aria-label={{$:/language/Buttons/ShowSideBar/Caption}} class="tc-btn-invisible tc-show-sidebar-btn">{{$:/core/images/menu-button}}</$button>
+</$list>
