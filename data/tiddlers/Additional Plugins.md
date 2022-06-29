@@ -3,7 +3,7 @@ Some useful plugins come pre-installed. You can get more details by clicking on 
 |Plugin|Description|
 |------|-----------|
 |[Command Palette](https://souk21.github.io/TW-commandpalette/)| A Sublime-Text like command window to search by title, content and tags using Ctrl-p / Cmd-p shortcuts. <$button><$action-sendmessage $message="open-command-palette"/>Show</$button>|
-|[ImportToExternalFile]()|Drag, drop and paste files into the wiki such as images and PDFs. |
+|[ImportToExternalFile](https://saqimtiaz.github.io/sq-tw/temp/import-to-external-file.html)|Drag, drop and paste files into the wiki such as images and PDFs. |
 |[Codemirror Editor](https://tiddlywiki.com/plugins/tiddlywiki/codemirror/)|Default text editor|
 |[Favourites](https://kookma.github.io/TW-Favorites/)|One-click favourite for tiddlers which are listed in their own tab|
 |[Highlight](http://bolila.tiddlyspot.com/)|Syntax highlighting for code blocks|

@@ -13,6 +13,8 @@
 
 :root {
     --color-background: #22272e;
+    --color-darker-grey: #292f37;
+    --color-dark-grey: #363f4a;
     --color-grey-border: #444c56;
    --color-med-blue: #316dca;
 }
@@ -330,11 +332,11 @@ table th, table td {
     border-left: none;
 }
 table th {
-    background-color: var(--color-background);
     padding: 6px 15px 6px 15px;
 }
 table td, .tc-control-panel td {
     padding: 4px 15px 4px 15px;
+    background-color: var(--color-background);
 }
 tr:not(:first-child) td {
   border-top: 1px solid #454c56; 
@@ -345,6 +347,9 @@ td:not(:last-child), th:not(:last-child) {
 }
 table>thead :first-child th {
   border-bottom: 1px solid #454c56; 
+}
+thead > tr > th {
+    background-color: var(--color-dark-grey);
 }
 
 /* Tiddler info popup */
@@ -411,3 +416,18 @@ span.sq-breadcrumbs-fragment {
 .sq-contextmenu-divider {
     border-top-color: inherit;
 }
+.stream-node-control .stream-node-handle .stream-node-handle-inner {
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color: #adbac7;
+    opacity: 0.7;
+}
+
+/* Details/Summary style */
+details {
+    background-color: var(--color-darker-grey);
+    padding: 10px;
+    border-radius: 8px;
+}
+

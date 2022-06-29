@@ -1,0 +1,10 @@
+caption: Section
+created: 20220629210921876
+modified: 20220629211155943
+tags: $:/tags/TextEditor/Snippet
+title: Section Snippet
+type: text/vnd.tiddlywiki
+
+<details><summary>Click Me</summary>
+Content... For best results, use a `{{transclusion}}` here
+</details>
