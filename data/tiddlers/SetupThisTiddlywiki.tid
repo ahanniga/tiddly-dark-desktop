@@ -1,0 +1,15 @@
+created: 20220630092508675
+modified: 20220630092525051
+tags: 
+title: SetupThisTiddlywiki
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/ControlPanel/Basics/
+
+<div class="tc-control-panel">
+
+|<$link to="$:/SiteTitle"><<lingo Title/Prompt>></$link> |<$edit-text tiddler="$:/SiteTitle" default="" tag="input"/> |
+|<$link to="$:/SiteSubtitle"><<lingo Subtitle/Prompt>></$link> |<$edit-text tiddler="$:/SiteSubtitle" default="" tag="input"/> |
+</div>
+
+See the [[control panel|$:/ControlPanel]] for more options.

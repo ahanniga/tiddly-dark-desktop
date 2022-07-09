@@ -8,3 +8,6 @@ Visit https://tiddlywiki.com/ to find out more about TiddlyWiki and what it can 
 
 This desktop version uses the TiddlyWiki [server edition](https://tiddlywiki.com/static/TiddlyWiki%2520on%2520Node.js.html) with [[additional plugins|Additional Plugins]] and [[other tips|More Examples]] to enhance its functionality. 
 
+## Set up this TiddlyWiki
+
+{{SetupThisTiddlywiki}}

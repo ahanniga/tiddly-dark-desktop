@@ -1,8 +1,8 @@
 created: 20210729125410133
 creator: 
-modified: 20210809233410826
+modified: 20220708214747748
 modifier: 
 title: $:/config/shortcuts/sidebar-search
 type: text/vnd.tiddlywiki
 
-ctrl-shift-F
+ctrl-shift-F ctrl-F

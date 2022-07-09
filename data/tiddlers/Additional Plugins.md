@@ -2,6 +2,7 @@ Some useful plugins come pre-installed. You can get more details by clicking on 
 
 |Plugin|Description|
 |------|-----------|
+|[Find-in-Page](https://tiddlywiki-find-in-page-plugin.tiddlyhost.com/)|Finds text in current tiddlers |
 |[Command Palette](https://souk21.github.io/TW-commandpalette/)| A Sublime-Text like command window to search by title, content and tags using Ctrl-p / Cmd-p shortcuts. <$button><$action-sendmessage $message="open-command-palette"/>Show</$button>|
 |[ImportToExternalFile](https://saqimtiaz.github.io/sq-tw/temp/import-to-external-file.html)|Drag, drop and paste files into the wiki such as images and PDFs. |
 |[Codemirror Editor](https://tiddlywiki.com/plugins/tiddlywiki/codemirror/)|Default text editor|

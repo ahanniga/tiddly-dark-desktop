@@ -1,9 +1,9 @@
 ## Sections
-<details><summary>Click Me</summary>
+<details><summary>[[Lorem ipsum]]</summary>
 {{Lorem ipsum}}
 </details>
 
-<details><summary>Demo Slideshow</summary>
+<details><summary>[[Demo Slideshow]]</summary>
 {{Demo Slideshow}}
 </details>
 
@@ -42,7 +42,6 @@ $tw.utils.extend = function(object /*, sourceObjectList */) {
 |208| Already Reported|
 |226| IM Used|
 
----
 ## Horizontal Rules
 ---
 
@@ -55,16 +54,25 @@ To save an image:
 
 <div align=center>[img width=600 [image-pasted.png]]</div>
 
+---
+
+
 ### Sized, left
 [img width=500 [PXL_20210825_203352627.NIGHT-01.jpeg]]
+
+---
 
 ### Sized, right
 <div align=right>
 [img width=500 [PXL_20210825_203352627.NIGHT-01.jpeg]]
 </div>
 
+---
+
 ### Sized, centered
 <div align=center>[img width=500 [PXL_20210825_203352627.NIGHT-01.jpeg]]</div>
+
+---
 
 ### In a table
 |One|Two|Three|
