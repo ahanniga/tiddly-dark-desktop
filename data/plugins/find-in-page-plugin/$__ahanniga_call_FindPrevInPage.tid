@@ -1,0 +1,8 @@
+created: 20220702155505236
+key: ((find-in-page-prev))
+modified: 20220702222503024
+tags: $:/tags/KeyboardShortcut
+title: $:/ahanniga/call/FindPrevInPage
+type: text/vnd.tiddlywiki
+
+<$action-scroll-to-match $direction="previous"/>

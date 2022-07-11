@@ -1,0 +1,10 @@
+{
+  "title": "$:/plugins/ahanniga/find-in-page-plugin",
+  "description": "A Tiddlywiki plugin that finds text in tiddlers currently view",
+  "author": "A Hannigan",
+  "version": "0.1.0",
+  "core-version": ">=5.0.0",
+  "source": "https://github.com/ahanniga/tiddlywiki-find-in-page-plugin",
+  "plugin-type": "plugin",
+  "list": "README License"
+}

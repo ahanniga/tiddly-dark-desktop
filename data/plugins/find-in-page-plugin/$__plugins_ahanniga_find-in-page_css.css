@@ -1,0 +1,28 @@
+.find-in-page-searched-text.find-in-page-counter {
+    white-space: nowrap;
+}
+
+.find-in-page-sidebar {
+    padding: 4px 0px;
+}
+
+button.tc-btn-invisible.find-in-page-next-match {
+    margin-left: 8px;
+}
+button.tc-btn-invisible.find-in-page-previous-match {
+    margin-right: 8px;
+    margin-left: 4px;
+}
+.find-in-page-searched-text .counter {
+    white-space: nowrap;
+}
+mark.selected {
+    background-color: #3ce03c;
+    border-radius: 2px
+}
+
+@media print {
+    .find-in-page-searched-text {
+        display: none !important;
+    }
+}

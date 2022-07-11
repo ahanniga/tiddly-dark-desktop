@@ -1,0 +1,8 @@
+created: 20220702120233072
+key: ((find-in-page-next))
+modified: 20220702222537158
+tags: $:/tags/KeyboardShortcut
+title: $:/ahanniga/call/FindNextInPage
+type: text/vnd.tiddlywiki
+
+<$action-scroll-to-match $direction="next"/>

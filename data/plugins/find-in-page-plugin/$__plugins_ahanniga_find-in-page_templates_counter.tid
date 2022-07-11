@@ -1,0 +1,7 @@
+created: 20220703000258630
+modified: 20220703001339054
+tags: 
+title: $:/plugins/ahanniga/find-in-page/templates/counter
+type: text/vnd.tiddlywiki
+
+<span class="counter"> {{$:/temp/ahanniga/find-in-page/counter}} </span>

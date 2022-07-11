@@ -1,0 +1,10 @@
+created: 20220702231522203
+modified: 20220702231618628
+tags: 
+title: $:/plugins/ahanniga/find-in-page/buttons/next-match
+type: text/vnd.tiddlywiki
+
+<$button class="tc-btn-invisible find-in-page-next-match" tooltip="Scroll to next matches">
+    <$action-scroll-to-match $direction="next"/>
+    {{$:/core/images/down-arrow}}
+</$button>

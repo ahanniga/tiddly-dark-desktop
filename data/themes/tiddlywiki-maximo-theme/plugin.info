@@ -1,0 +1,10 @@
+{
+  "title": "$:/themes/ahanniga/maximo-theme",
+  "description": "Maximo: A theme to maximise tiddler space",
+  "author": "A Hannigan",
+  "version": "0.2.0",
+  "core-version": ">=5.0.0",
+  "source": "https://github.com/ahanniga/tiddlywiki-maximo-theme",
+  "plugin-type": "theme",
+  "list": "README License"
+}

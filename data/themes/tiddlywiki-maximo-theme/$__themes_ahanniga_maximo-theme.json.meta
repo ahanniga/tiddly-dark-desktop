@@ -1,0 +1,10 @@
+author: A Hannigan
+core-version: >=5.0.0
+dependents: 
+description: A theme to maximise tiddler space
+list: README License
+plugin-type: theme
+source: https://github.com/ahanniga/tiddlywiki-maximo-theme
+title: $:/themes/ahanniga/maximo-theme
+type: application/json
+version: 0.1.0

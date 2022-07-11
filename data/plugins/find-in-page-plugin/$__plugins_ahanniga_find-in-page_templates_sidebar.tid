@@ -1,0 +1,11 @@
+created: 20220702224747531
+modified: 20220703001356020
+tags: $:/tags/SideBarSegment
+title: $:/plugins/ahanniga/find-in-page/templates/sidebar
+type: text/vnd.tiddlywiki
+
+<span class="find-in-page-searched-text find-in-page-sidebar">
+	<$list filter="[{$:/config/ahanniga/find-in-page/search-tiddler}get[text]]" emptyMessage="&nbsp;">
+		Find in page: {{$:/plugins/ahanniga/find-in-page/buttons/next-match}} {{$:/plugins/ahanniga/find-in-page/buttons/previous-match}} {{$:/plugins/ahanniga/find-in-page/templates/counter}}
+	</$list>
+</span>

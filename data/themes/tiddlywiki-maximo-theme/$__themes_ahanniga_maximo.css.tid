@@ -1,0 +1,375 @@
+created: 20220707174341726
+modified: 20220707175243341
+tags: $:/tags/Stylesheet
+title: $:/themes/ahanniga/maximo.css
+type: text/vnd.tiddlywiki
+
+
+
+/* Maximo */
+p {
+    margin: 0;
+    margin-top: 10px !important;
+}
+
+li p {
+    margin: 1px !important;
+}
+
+/* Heading font bold */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500 !important;
+}
+
+/* For title border we need to switch padding/margins */
+.tc-titlebar {
+    margin: 0 !important;
+    line-height: normal;
+    font-size: 20pt !important;
+    /*padding: 10px 10px 13px 15px !important;*/
+    padding: 0 !important;
+}
+input.tc-titlebar.tc-edit-texteditor {
+    padding-left: 7px !important;
+}
+.tc-tiddler-title {
+    background-color: transparent !important;
+}
+.tc-tiddler-title-icon {
+    margin-right: 5px;
+    line-height: 1;
+}
+.tc-subtitle {
+    padding: 5px;
+}
+
+/* Edit tiddler */
+span.tc-tiddler-controls.tc-titlebar {
+    margin: 0;
+    padding: 5px 0px 10px 0px !important;
+}
+
+.tc-tiddler-controls button svg, .tc-tiddler-controls button img {
+    height: 21px !important;
+}
+
+/* Username not required */
+.tc-subtitle .tc-tiddlylink {
+    display: none;
+}
+
+/* Style subtitle */
+.tc-site-subtitle {
+    color: <<colour foreground>> !important;
+}
+
+.tc-tags-wrapper {
+    padding: 0px 0px 0px 15px !important;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 -15px !important;
+    border-top: 1px solid <<colour tiddler-border>> !important;
+    border-bottom: 1px solid <<colour tiddler-border>> !important;
+}
+
+/* Add margin to pills */
+.tc-tags-wrapper .tc-tag-list-item {
+    margin: 10px 5px 10px 2px !important;
+}
+
+/* Force bg for all hljs classes */
+.hljs {
+    background: <<colour code-background>> !important;
+    line-height: 1.4;
+}
+
+/* Make lables inline */
+label {
+    display: inline-block !important;
+}
+
+.tc-sidebar-lists label {
+    margin-right: 3px !important;
+}
+.tc-sidebar-lists a.tc-tiddlylink {
+    color: <<colour sidebar-tiddler-link-foreground>>;
+    font-weight: normal;
+    text-decoration: none !important;
+}
+.tc-sidebar-lists a.tc-tiddlylink:hover {
+    color: <<colour sidebar-tiddler-link-foreground>>;
+    font-weight: normal;
+}
+a.tc-tiddlylink-external {
+    text-decoration: none !important;
+    color: <<colour sidebar-tiddler-link-foreground>> !important;
+    background-color: inherit !important;
+}
+
+/* Thin and round tiddler borders */
+.tc-tiddler-frame {
+    padding: 10px 16px 18px 16px !important;
+    width: 100% !important;
+    border-radius: 10px !important;
+    position: relative !important;
+    margin-bottom: 18px !important;
+}
+.tc-fold-banner {
+    margin-left: -48px !important;
+}
+
+button.tc-unfold-banner {
+    margin: 0 !important;
+    position: absolute !important;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    width: 20px !important;
+    top: 20px !important;
+    left: -30px !important;
+}
+.tc-unfold-banner:hover {
+    border: none !important;
+}
+
+/* Center and resize any image in title */
+div.kbtitle {
+    display: flex; 
+    align-items: center;
+    font-size: 22pt;
+    margin-bottom: 5px;
+}
+img.kbtitle {
+    margin-right:10px; 
+    width: 40px;
+    border-radius: 3px;
+}
+
+/* Style search input */
+textarea, input[type=text], input[type=search], input[type=""], input:not([type]) {
+    border: 1px solid <<colour tiddler-editor-border>> !important;
+    border-radius: 3px !important;
+    padding: 5px !important;
+    outline: none !important;
+    margin-right: 5px !important;
+}
+
+/* Add some space under controls */
+.tc-page-controls {
+    margin-bottom: 12px !important;
+}
+
+/* Tweak pre-blocks */
+pre .hjls {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    padding-left: 10px !important;
+    border-radius: 5px !important;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+}
+
+/* And code blocks */
+code {
+    border: none !important;
+    font-size: 10pt !important;
+    margin: 3px !important;
+}
+
+/* Move the right panel up a bit */
+body.tc-body .tc-sidebar-scrollable {
+    padding-top: 41px;
+    padding-left: 35px;
+}
+.tc-sidebar-scrollable .tc-tag-label {
+	text-shadow: none;
+}
+.tc-edit-tags {
+    background: <<colour background>>;
+    border: none;
+    padding: 5px 0 0 0;
+    margin-top: 8px !important;
+}
+
+/* ::placeholder {
+  color: #636e7b;
+} */
+
+input.tc-edit-texteditor::placeholder {
+    font-style: italic;
+    color: #5f6976;
+}
+
+html button {
+    line-height: 1.2;
+    padding: 4px 13px;
+    border-radius: 7px;
+    cursor: pointer;
+	border: 1px solid <<colour tiddler-editor-border>>;
+    background: <<colour tiddler-background>>;
+    color: <<colour muted-foreground>>;
+}
+
+
+.tc-control-panel div {
+    border:none;
+}
+
+.tc-editor-toolbar {
+    margin-left: -4px;
+    margin-bottom: 3px;
+}
+
+.tc-editor-toolbar button {
+    background-color: <<colour background>> !important;
+    border: 1px solid <<colour tiddler-editor-border>>;
+    padding: 4px !important;
+}
+.tc-editor-toolbar button:hover {
+    fill: <<colour tiddler-controls-foreground-hover>> !important;
+    color: <<colour tiddler-controls-foreground-hover>> !important;
+}
+
+/* Editor, remove top/bottom field margin */
+.tc-edit-fields, .tc-edit-fields-small {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none !important;
+}
+
+.tc-tab-buttons {
+    padding: 0px !important;
+}
+
+.tc-tab-set button:hover {
+    color: <<colour sidebar-controls-foreground-hover>> !important;
+    background: <<colour sidebar-tab-background>> !important;
+}
+
+/* Drop-down border */
+.tc-drop-down {
+    border: 1px solid <<colour tiddler-border>>;
+}
+.tc-block-dropdown {
+    border: 1px solid <<colour tiddler-border>>;
+}
+
+hr {
+    height: 0;
+    border: 0;
+    border-top: 1px solid <<colour tiddler-border>> !important;
+}
+
+table {
+  border-collapse: separate !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  border: 1px solid <<colour table-border>> !important;
+  border-spacing: 0 !important;
+}
+table th, table td {
+    border-top: none !important;
+    border-left: none !important;
+}
+table th {
+    padding: 6px 15px 6px 15px !important;
+}
+table td, .tc-control-panel td {
+    padding: 4px 15px 4px 15px !important;
+    background-color: <<colour background>>;
+}
+tr:not(:first-child) td {
+  border-top: 1px solid <<colour table-border>> !important; 
+}
+td:not(:last-child), th:not(:last-child) {
+ /* Vertical column dividers */
+ /* border-right: 1px solid #454c56; */
+}
+table>thead :first-child th {
+  border-bottom: 1px solid <<colour tiddler-border>>; 
+}
+thead > tr > th {
+    background-color: <<colour table-footer-background>> !important;
+}
+
+.tc-tiddler-info {
+    margin: 0px;
+}
+
+/* Fixes the ugly scrollbars on Linux and issue #2 */
+::-webkit-scrollbar
+{
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 8px;
+    background-color: <<colour tiddler-border>>;
+}
+
+/* Electron: make titlebar area draggable */
+.tc-topbar-left {
+    left: 70px;
+    top: 0px;
+    width: 100%;
+    height: 20px;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    /*background-color: var(--color-background);*/
+    z-index: 200;
+}
+
+.tc-topbar-right {
+    top: 5px;
+    right: 8px !important;
+}
+
+/* Remove the border around presentation */
+.tamasha-presentation-frame {
+    border: none;
+}
+
+/* Streams Plugin */
+.stream-root {
+    margin-left: -9px !important;
+    margin-bottom: 6px;
+}
+
+span.sq-breadcrumbs-fragment {
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.sq-contextmenu .tc-menu-list-item {
+    color: inherit;
+}
+.sq-contextmenu-divider {
+    border-top-color: inherit;
+}
+.stream-node-control .stream-node-handle .stream-node-handle-inner {
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color: <<colour code-background>>;
+    opacity: 0.7;
+}
+
+/* Details/Summary style */
+details {
+    background-color: <<colour modal-footer-background>>;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Notification */
+.tc-notification {
+    padding: 0px 10px 9px 14px;
+    background-color: <<colour notification-background>>;
+    border: 1px solid <<colour notification-border>>;
+    color: <<colour primary>>;
+    border-radius: 6px;
+}
+
+

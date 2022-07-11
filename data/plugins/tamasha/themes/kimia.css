@@ -1,0 +1,19 @@
+/* hide ui elements */
+.kimia .tamasha-slide-number,
+.kimia .tamasha-viewer-nav {
+	display:none;
+}
+
+/*
+.kimia .tamasha-progress {
+	display:none;
+}
+*/
+
+.kimia .tamasha-slide-content {	
+}
+
+
+.kimia .tamasha-slide-content .title{ /* used with vanilla template*/
+    font-weight:300;
+}

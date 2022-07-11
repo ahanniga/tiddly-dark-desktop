@@ -1,0 +1,10 @@
+{
+  "title": "$:/plugins/sq/ImportToExternalFile",
+  "description": "Save binary files to the files folder on node.js",
+  "author": "Saq Imtiaz",
+  "version": "0.1.32",
+  "core-version": ">=5.0.0",
+  "source": "",
+  "plugin-type": "plugin",
+  "list": ""
+}
