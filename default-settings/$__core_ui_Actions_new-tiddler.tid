@@ -1,0 +1,11 @@
+created: 20220716153202376
+description: create a new empty tiddler
+modified: 20220716153207253
+tags: $:/tags/Actions
+title: $:/core/ui/Actions/new-tiddler
+type: text/vnd.tiddlywiki
+
+\define get-tags() $(textFieldTags)$ $(tagsFieldTags)$
+<$vars textFieldTags={{$:/config/NewTiddler/Tags}} tagsFieldTags={{$:/config/NewTiddler/Tags!!tags}}>
+<$action-sendmessage $message="tm-new-tiddler" type="text/x-markdown" tags=<<get-tags>>/>
+</$vars>

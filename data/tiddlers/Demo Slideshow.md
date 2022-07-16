@@ -1,1 +1,0 @@
-<<presenter tag:"demo-slide" footer:"" animation:none theme:"tiddly-dark-pres noprogressbar" template:nolinks >>
