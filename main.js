@@ -12,7 +12,7 @@ var wikiDir = ".tiddly-dark";
 var homeDir = os.homedir();
 var platform = os.platform;
 var tplArchive = upath.join(__dirname, "server-empty-template.tar.gz");
-var settingsDir = upath.join(__dirname, "default-settings");
+var defaultsDir = upath.join(__dirname, "default-settings");
 var tiddlyDir = upath.join(homeDir, wikiDir);
 var port = 23981;
 var mainWindow;
@@ -21,8 +21,9 @@ var mainWindow;
 if (!fs.existsSync(tiddlyDir)) {
     fs.mkdirSync(tiddlyDir);
     tar.x({ file: tplArchive, cwd: tiddlyDir, sync: true });
-    // And default settings
-    fse.copySync(`${settingsDir}/`, `${tiddlyDir}/tiddlers/`);
+    // Apply default settings and tiddlers
+    fse.copySync(`${defaultsDir}/tiddlers/`, `${tiddlyDir}/tiddlers/`);
+    fse.copySync(`${defaultsDir}/files/`, `${tiddlyDir}/files/`);
 }
  
 // Start tiddlywiki
