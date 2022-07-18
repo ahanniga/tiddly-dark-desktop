@@ -1,7 +1,7 @@
 # Tiddly-dark-desktop
 An Electron wrapper around [tiddly-dark](https://github.com/ahanniga/tiddly-dark)
 
-![Screenshot](https://github.com/ahanniga/tiddly-dark-desktop/blob/main/resources/tiddly-dark-desktop-sshot.jpg?raw=true)
+![Screenshot](https://github.com/ahanniga/tiddly-dark-desktop/blob/main/resources/tiddly-dark-desktop-sshot.png?raw=true)
 
 ## What it Provides
 
