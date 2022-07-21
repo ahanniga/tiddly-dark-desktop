@@ -1,0 +1,18 @@
+caption: Favorites
+created: 20191226064836102
+modified: 20220720195106958
+tags: $:/tags/SideBar
+title: $:/plugins/kookma/favorites/sidebar-tab
+type: text/vnd.tiddlywiki
+
+\define show-options()
+<$button class="tc-btn-invisible" to="$:/plugins/kookma/favorites/manager">
+{{$:/core/images/options-button}} Manager
+</$button>
+\end
+
+<!-- create the sidebar tab -->
+<div class="kk-favorites">
+ --- &nbsp; <<show-options>> <br>
+<$transclude tiddler="$:/plugins/kookma/favorites/macros/sidebar" field=text/>
+</div>

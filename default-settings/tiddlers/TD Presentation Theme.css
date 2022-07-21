@@ -80,3 +80,7 @@
 .td-pres .tamasha-slide-content code, .td-pres .tamasha-slide-content pre {
     font-size: 0.8em !important;
 }
+
+.tamasha-overlay .tamasha-slide-content {
+    padding: 8vh 0;
+}

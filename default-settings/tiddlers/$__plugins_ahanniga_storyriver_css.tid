@@ -1,0 +1,13 @@
+created: 20220719235050387
+modified: 20220720194852435
+title: $:/plugins/ahanniga/storyriver/css
+type: text/vnd.tiddlywiki
+
+.tc-story-river {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tc-tiddler-frame
+{
+  max-width: 49%; margin-right: 1%;
+}

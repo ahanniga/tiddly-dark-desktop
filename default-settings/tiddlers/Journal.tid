@@ -1,0 +1,12 @@
+color: #57ab5a
+created: 20210524213807389
+creator: aidan
+modified: 20220627083424880
+modifier: aidan
+tags: Contents
+title: Journal
+type: text/vnd.tiddlywiki
+
+!! Entries in past two weeks
+
+<<list-links "[tag[Journal]!sort[created]limit[10]]">>

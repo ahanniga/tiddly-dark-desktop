@@ -12,3 +12,4 @@ Click on the links for more detail about them:
 |[Markdown](https://github.com/Jermolene/TiddlyWiki5/tree/master/plugins/tiddlywiki/markdown)|Markdown Syntax (enabled by default)|
 |[Sidebar Resizer](https://gk0wk.github.io/TiddlySeq/#Resizable%20Sidebar)|Resize the sidebar with click and drag|
 |[Tamasha Slideshow](https://kookma.github.io/TW-Tamasha/)|Create slideshows using tiddlers as slides. <$button><$action-navigate $to="Demo Slideshow"/>Demo</$button>|
+|[Split View](https://tiddlywiki-split-view-plugin.tiddlyhost.com/)|One or two-column view|

@@ -1,5 +1,4 @@
 # Tiddly-dark-desktop
-An Electron wrapper around [tiddly-dark](https://github.com/ahanniga/tiddly-dark)
 
 ![Screenshot](https://github.com/ahanniga/tiddly-dark-desktop/blob/main/resources/tiddly-dark-desktop-sshot.png?raw=true)
 
@@ -37,5 +36,5 @@ While the traditional single-file version of Tiddlywiki is self-contained and do
 
 Yes, copy the `~/.tiddly-dark` directory to your server. Assuming tiddlywiki is installed you can launch it with `tiddlywiki ~/.tiddly-dark --listen <other-options>` as normal.
 
-## Can I Still Open It in a Browser
+## Can I Still Open It in a Browser?
 Yes, while the desktop app is running the wiki can still be accessed from http://localhost:23981 and tiddlers will sync between the two. 
