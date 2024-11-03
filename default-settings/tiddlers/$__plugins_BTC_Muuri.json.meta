@@ -1,0 +1,9 @@
+author: Simon Huber
+dependents: 
+description: A gridded storyview
+list: readme license usage
+muuri-tiddler-width: 1
+plugin-type: plugin
+title: $:/plugins/BTC/Muuri
+type: application/json
+version: 0.2.37

@@ -1,0 +1,10 @@
+author: Danielo Rodriguez
+core-version: >=5.1.0
+dependents: 
+description: double click to edit tiddlers
+list: readme
+plugin-type: plugin
+source: https://github.com/danielo515/TW5-2click2edit
+title: $:/plugins/danielo515/2click2edit
+type: application/json
+version: 0.1

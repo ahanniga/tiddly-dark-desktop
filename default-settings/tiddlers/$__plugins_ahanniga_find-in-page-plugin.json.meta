@@ -1,0 +1,10 @@
+author: A Hannigan
+core-version: >=5.0.0
+dependents: 
+description: A Tiddlywiki plugin that finds text in tiddlers currently view
+list: README License
+plugin-type: plugin
+source: https://github.com/ahanniga/tiddlywiki-find-in-page-plugin
+title: $:/plugins/ahanniga/find-in-page-plugin
+type: application/json
+version: 0.3.0

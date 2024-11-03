@@ -1,0 +1,10 @@
+author: A Hannigan
+core-version: >=5.0.0
+dependents: 
+description: Configurable context menus for tiddlers
+list: README License
+plugin-type: plugin
+source: https://github.com/ahanniga/tiddlywiki-context-menu-plugin
+title: $:/plugins/ahanniga/context-menu-plugin
+type: application/json
+version: 0.9.0
