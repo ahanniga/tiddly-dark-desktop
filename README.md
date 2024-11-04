@@ -1,6 +1,6 @@
 # Tiddly-dark-desktop
 
-![Screenshot](https://github.com/ahanniga/tiddly-dark-desktop/blob/main/resources/tiddly-dark-desktop-sshot.png?raw=true)
+![Screenshot](https://github.com/ahanniga/tiddly-dark-desktop/blob/main/resources/tiddly-dark-desktop-sshot.png)
 
 ## What it Provides
 
