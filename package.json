@@ -12,8 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@electron/packager": "^18.3.5",
     "electron": "^19.0.4",
-    "electron-packager": "^15.5.1",
+    "electron-packager": "^15.5.2",
     "fs-extra": "^10.1.0",
     "upath": "^2.0.1"
   },

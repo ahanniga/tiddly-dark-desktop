@@ -1,9 +1,3 @@
-created: 20241015155446319
-modified: 20241102230225374
-tags: $:/tags/Stylesheet theme lang/css
-title: Theme Tweaks
-type: text/vnd.tiddlywiki
-
 /* Mono look to tag labels */
 span.tc-tag-label {
     padding: 6px 10px;
